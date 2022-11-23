@@ -10,9 +10,9 @@ print("Para que serve o Github? \n (A) Para instalar jogos \n (B) Para Guardar s
 answer_1 = input("Resposta: ")
 
 if answer_1 == "B":
-    print("Resposta Correto")   
+    print("Resposta Correta")   
 else:
-    print("Resposta Incorreto")
+    print("Resposta Incorreta")
                                         
 if answer_1 != "B":
     quit("Tente novamente...")
@@ -23,9 +23,12 @@ print("Para que serve o Git Desktop?  \n (A)Compra de produtos \n (B)Vender algu
 answer_2 = input("Resposta: ")
 
 if answer_2 == "C":
-    print("Resposta Correto")
+    print("Resposta Correta")
 else: 
-    print("Resposta Incorreto")
+    print("Resposta Incorreta")
+    
+if answer_2 != "C":
+    quit("Comece novamente...")
   
 
     
