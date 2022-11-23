@@ -17,7 +17,15 @@ else:
 if answer_1 != "B":
     quit("Tente novamente...")
         
+print("Pergunta numero 2")
 
+print("Para que serve o Git Desktop?  \n (A)Compra de produtos \n (B)Vender algum produto  \n (C) Interagir com o Vscode")
+answer_2 = input("Resposta: ")
+
+if answer_2 == "C":
+    print("Resposta Correto")
+else: 
+    print("Resposta Incorreto")
   
 
     
